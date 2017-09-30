@@ -1,0 +1,13 @@
+# here are some useful libs you may need
+if you do dl :)
+### we assume you install it for yourself
+* if you use pip
+pip install numpy scipy matplotlib ipython jupyter pandas sympy nose
+* if you use linux package manager
+sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
+usually with 'python-' before the lib name
+* conda is okay too
+conda install numpy scipy matplotlib ipython jupyter pandas sympy nose
+
+
+# continue...
