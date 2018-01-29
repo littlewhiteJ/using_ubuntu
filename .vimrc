@@ -1,0 +1,16 @@
+set autoindent
+set encoding=utf-8
+syntax on
+filetype on
+set smartindent
+set smarttab
+set expandtab
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set mouse=a
+set nu
+set history=1024
+set softtabstop=4
+set shiftwidth=4
+set expandtab
