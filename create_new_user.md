@@ -7,4 +7,5 @@ Then perform WriteOut with Ctrl + O. The editor will ask you for the file name t
 
 Done!
 
-**get from: **https://askubuntu.com/questions/7477/how-can-i-add-a-new-user-as-sudoer-using-the-command-line
+**get from: **
+https://askubuntu.com/questions/7477/how-can-i-add-a-new-user-as-sudoer-using-the-command-line
