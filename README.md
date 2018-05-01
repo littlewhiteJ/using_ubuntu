@@ -1,6 +1,6 @@
-# ins-for-ubuntu
-## it is torturous to install sth again and again...
-### so it is a repository about the installing 
-#### some libraries and softwares about dl
-##### contact me
-###### Christ_J@yeah.net
+## ins-for-ubuntu
+it is a repository to mark the techniques for using ubuntu
+I usually get them from different website
+and if that offend
+==contact me==
+**Christ_J@yeah.net**
