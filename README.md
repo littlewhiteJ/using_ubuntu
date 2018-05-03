@@ -5,6 +5,6 @@ I usually get them from different websites
 
 and if that offend
 
-==contact me==
+**contact me**
 
 **Christ_J@yeah.net**
