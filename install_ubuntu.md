@@ -1,4 +1,4 @@
-##Installing
+## Installing
 which is the first step to use ubuntu.
 
 and it is hard to handle...
