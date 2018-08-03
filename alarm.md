@@ -20,7 +20,7 @@ i used **ffmpeg**
 it can turn a .mp3 music to a .wav music easily~
 
 ```
-  ffmpeg -i mokou.mp3 mokou.wav
+  $ ffmpeg -i mokou.mp3 mokou.wav
 ```
 
 and when my program is finished, my program will play the music for me!!!
