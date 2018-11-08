@@ -1,4 +1,4 @@
-## run program without a continuous net connect
+## Run program without a continuous net connect
 
 there is a problem when we train model on server
 
@@ -18,24 +18,24 @@ so sad...
 
 so we use a tool named as screen
 
-1 start the screen
+- start the screen
 ```
   screen
 ```
-2 run the program
-3 use 'ctrl+A' and 'ctrl+D'
+- run the program
+- use 'ctrl+A' and 'ctrl+D'
 
 then the process is detached
 it is running but you can 
 
 **disconnect and shut it down are ok too**
-4 come back
+- come back
 ```
   screen -ls
 ```
 list the detached process
 
-5 take the control again
+- take the control again
 ```
   screen -r [pnum]
 ```
