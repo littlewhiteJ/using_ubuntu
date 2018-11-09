@@ -99,9 +99,9 @@ emmm...
 
 like a black hole...
 
-6. balbab
+6. baobab
 
-here comes a useful tool **balbab**
+here comes a useful tool **baobab**
 
 you can find out which software eat your memory by it **easily**
 
