@@ -13,7 +13,7 @@ sudo apt-get remove <package-name>
 
 sudo apt-get purge <package-name>
 ```
-instruction with ==remove== can delete the package but the config_file or other things would not be deleted
+instruction with **remove** can delete the package but the config_file or other things would not be deleted
 
 so use purge is better... well, i think.
 
@@ -21,7 +21,7 @@ so use purge is better... well, i think.
 
 when your software is installed, the .deb package is of no use...usually
 
-they are in ==/var/cache/apt/archives==
+they are in **/var/cache/apt/archives**
 
 use 
 ```
@@ -37,13 +37,13 @@ or
 ```
 sudo apt-get autoclean
 ```
-==autoclean== clean the .deb package whose software is deleted now
+**autoclean** clean the .deb package whose software is deleted now
 
-and ==clean== clean all the .deb packages
+and **clean** clean all the .deb packages
 
 3. delete the orphan
 
-sometimes when you use ==apt-get== some supported packages would be installed at the same time
+sometimes when you use **apt-get** some supported packages would be installed at the same time
 
 if your software is deleted, they become orphans
 
@@ -53,7 +53,7 @@ you can use
 ```
 sudo apt-get autoremove
 ```
-that instruction can only delete the packages installed by ==apt-get==
+that instruction can only delete the packages installed by **apt-get**
 
 you can use a tool **deborphan**
 ```
@@ -64,7 +64,7 @@ deborphan | xargs sudo apt-get purge -y
 
 4. delete the obsolete(out of style) packages
 
-it means the packages cannot be found in ==/etc/apt/sources.list==
+it means the packages cannot be found in **/etc/apt/sources.list**
 
 so we should delete them
 
