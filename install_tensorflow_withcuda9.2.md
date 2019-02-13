@@ -1,13 +1,14 @@
 # how to install tensorflow (especially with cuda 9.2)
 
-**not using a GPU**
+## not using a GPU
 first, if you do not have a super GPU, it is easy to type
 ```
   pip install tensorflow
 ```
 to install a CPU version
 
-**but if you want to install a GPU version easily, such as**
+## using GPU
+but if you want to install a GPU version easily, such as
 ```
   pip install tensorflow-gpu
 ```
