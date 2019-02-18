@@ -1,4 +1,4 @@
-## how to clear the disk in ubuntu
+# how to clear the disk in ubuntu
 
 **usually be out of memory in disk**
 
@@ -6,7 +6,7 @@
 
 get the information from the [website](https://www.linuxdashen.com/debianubuntu%E6%B8%85%E7%90%86%E7%A1%AC%E7%9B%98%E7%A9%BA%E9%97%B4%E7%9A%848%E4%B8%AA%E6%8A%80%E5%B7%A7)
 
-1. sth about delete the package
+## sth about delete the package
 
 ```
 sudo apt-get remove <package-name>
@@ -17,7 +17,7 @@ instruction with **remove** can delete the package but the config_file or other 
 
 so use purge is better... well, i think.
 
-2. clear the .deb package
+## clear the .deb package
 
 when your software is installed, the .deb package is of no use...usually
 
@@ -41,7 +41,7 @@ sudo apt-get autoclean
 
 and **clean** clean all the .deb packages
 
-3. delete the orphan
+## delete the orphan
 
 sometimes when you use **apt-get** some supported packages would be installed at the same time
 
@@ -62,7 +62,7 @@ deborphan
 deborphan | xargs sudo apt-get purge -y
 ```
 
-4. delete the obsolete(out of style) packages
+## delete the obsolete(out of style) packages
 
 it means the packages cannot be found in **/etc/apt/sources.list**
 
@@ -79,7 +79,7 @@ than use
 sudo apt-get purge [that package]
 ```
 
-5. delete the log
+## delete the log
 
 we can use tool **ncdu** to list the logs 
 
@@ -99,13 +99,13 @@ emmm...
 
 like a black hole...
 
-6. baobab
+## baobab
 
 here comes a useful tool **baobab**
 
 you can find out which software eat your memory by it **easily**
 
-7. debian-goodies
+## debian-goodies
 
 it is also useful
 
@@ -120,7 +120,7 @@ or see more lines
 dpigs -H --lines=20
 ```
 
-8. ubuntu-tweak
+## ubuntu-tweak
 ```
 sudo apt-get install gdebi
 
